@@ -11,8 +11,13 @@
     <Company>qumeta</Company>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>dotnet-tinypng</ToolCommandName>
-    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/qumeta/TinyPNG-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/qumeta/TinyPNG-dotnet.git</RepositoryUrl>
+   <PackageOutputPath>./nupkg</PackageOutputPath>
     <Description>A simple tool for compressing PNG and JPEG files using the TinyPNG API</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
