@@ -3,11 +3,22 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>dotnet-tinypng</AssemblyName>
+    <!--<PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>true</PublishTrimmed>
+    <RuntimeIdentifier>win10-x64</RuntimeIdentifier>-->
     <Authors>lark</Authors>
     <Company>qumeta</Company>
     <PackAsTool>true</PackAsTool>
-    <ToolCommandName>tinypng</ToolCommandName>
+    <ToolCommandName>dotnet-tinypng</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <Description>A simple tool for compressing PNG and JPEG files using the TinyPNG API</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.2.4" />
+    <PackageReference Include="Humanizer.Core" Version="2.2.0" />
+    <PackageReference Include="Tinify" Version="1.5.2" />
+  </ItemGroup>
 
 </Project>
