@@ -6,7 +6,7 @@ Can compress all the PNG or JPEG files in a directory or just single files.
 
 ## Installation
 
-The latest release of dotnet-tinypng requires the [3.0.100](https://www.microsoft.com/net/download/dotnet-core/sdk-3.0.100) .NET Core 3.0 SDK or newer.
+The latest release of dotnet-tinypng requires the [3.1.100](https://www.microsoft.com/net/download/dotnet-core/sdk-3.0.100) .NET Core 3.1 SDK or newer.
 Once installed, run this command:
 
 ```
